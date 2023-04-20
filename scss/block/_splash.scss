@@ -1,0 +1,67 @@
+.splash__container {
+  background: linear-gradient(
+    180deg,
+    rgba(229, 0, 0, 0.71) 9.02%,
+    rgba(221, 6, 7, 0.720854) 11.25%,
+    #1593af 68.67%
+  );
+}
+.splash {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 31px;
+  margin-right: 31px;
+  background: #222222;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 20px 20px;
+  padding-top: 54px;
+  padding-bottom: 80px;
+}
+.splash__logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 37px;
+}
+.splash__title {
+  font-family: "Creepster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 44px;
+}
+.splash__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #c1cc41;
+  margin-bottom: 62px;
+}
+.splash__btn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+  padding: 9px 21px 13px 22px;
+  border: none;
+  background: #1ab8db;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.splash__btn:hover {
+  opacity: 0.6;
+}
+.splash__btn:active {
+  opacity: 0.3;
+}

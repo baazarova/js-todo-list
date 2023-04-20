@@ -1,0 +1,141 @@
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.home__top {
+  background: #222222;
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  z-index: -1;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-top: 40px;
+}
+.home__topWrapper {
+  width: 100%;
+  text-align: center;
+}
+.home__total {
+  width: 100%;
+  margin-top: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 13px;
+  border-bottom: 2px solid lightgrey;
+}
+.total__todos {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+.total__link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  color: #1ab8db;
+  text-decoration: none;
+}
+.todo__list {
+  width: 100%;
+  padding: 8px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.todo__item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  //   justify-content: space-between;
+
+  padding: 13px;
+  background: #d9d9d9;
+  border-radius: 4px;
+}
+.todo__check {
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+  width: 20px;
+  height: 20px;
+}
+.todo__itemDate,
+.todo__itemTask {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  color: #000000;
+  flex-basis: 40%;
+  flex-grow: 1;
+  //   border: 1px dashed darkolivegreen;
+}
+
+////////////////
+.todo__itemTask {
+  word-wrap: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.home__bottomWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home__loadBtn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1ab8db;
+  padding: 11px 16px;
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #1ab8db;
+  margin-bottom: 55px;
+}
+.home__plusBtn {
+  background: #1ab8db;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  border: none;
+  font-size: 25px;
+  padding: 12px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.home__plusBtn:hover {
+  opacity: 0.8;
+}
+.home__bottom {
+  background: #eeeeee;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+}

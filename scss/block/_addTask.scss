@@ -1,0 +1,96 @@
+.add {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.add__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 10px;
+  width: 100%;
+}
+.add__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1ab8db;
+}
+.add__closeBtn {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.add__closeIcon {
+  width: 20px;
+  height: 20px;
+}
+.add__logoImg {
+  width: 100px;
+  height: 100px;
+}
+.add__logo {
+  padding: 40px 0 30px 0;
+}
+.add__inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.add__input {
+  width: 100%;
+  border: 1px solid rgba(26, 184, 219, 0.85);
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 16px;
+  margin-top: 10px;
+}
+.inputs__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.add__btnWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+.btn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 11px 36px;
+  border: none;
+  cursor: pointer;
+}
+.add__btn {
+  background: #1ab8db;
+}
+.cancel__btn {
+  background: #ff0000;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>add task</title>
+  </head>
+  <body>
+    <div class="container add">
+      <div class="add__header">
+        <h3 class="add__title">ADD TASK</h3>
+        <button class="add__closeBtn">
+          <img class="add__closeIcon" src="./images/close.svg" alt="" />
+        </button>
+      </div>
+      <a href="./home.html" class="add__logo">
+        <img class="add__logoImg" src="./images/todo-logo.svg" alt="" />
+      </a>
+
+      
+      <form class="add__inputs" onsubmit="return false;">
+        <label class="inputs__title" for="name"
+          >Title
+          <input
+            type="text"
+            class="add__input task__input"
+            placeholder="Enter task title"
+            id="name"
+          />
+        </label>
+        <label class="inputs__title" for="desc"
+          >Describtion
+          <input
+            type="text"
+            class="add__input desc__input"
+            placeholder="Enter task description"
+            id="desc"
+          />
+        </label>
+        <label class="inputs__title" for="date"
+          >Date end
+          <input
+            type="date"
+            class="add__input date__input"
+            placeholder="Click here to choose date"
+            id="date"
+          />
+        </label>
+        <div class="add__btnWrap">
+          <button onclick="taskConfirm()" class="add__btn btn" type="submit">
+            Add
+          </button>
+          <button class="cancel__btn btn" onclick="deleteTask()">Cancel</button>
+        </div>
+      </form>
+    </div>
+    <script src="./scripts/addTask.js"></script>
+  </body>
+</html>

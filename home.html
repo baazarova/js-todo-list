@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="container home">
+      <div class="home__top"></div>
+      <div class="home__topWrapper">
+          <a href="/">
+            <img class="logo" src="./images/todo-logo.svg" alt="logotip todo" />
+          </a>
+        <div class="home__total">
+          <p class="total__todos">todos</p>
+          <a class="total__link" href="#">View all</a>
+        </div>
+        <ul class="todo__list">
+          <li class="todo__item">
+            <input type="checkbox" class="todo__check" />
+            <p class="todo__itemDate">Date</p>
+            <p class="todo__itemTask">Task</p>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="home__bottomWrapper">
+        <button class="home__loadBtn">Load more...</button>
+        <a href="./addTask.html" class="home__plusBtn">+</a>
+        <div class="home__bottom"></div>
+      </div>
+    </div>
+    <script src="./scripts/renderTask.js"></script>
+  </body>
+</html>
